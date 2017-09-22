@@ -12,7 +12,7 @@ in vim run `:PlugInstall`
 ## Tmux Config
 `$ ln -s ~/dotfiles/tmux.conf ~/.tmux.conf`
 
-## Terminal Input Conig
+## Terminal Input Config
 `$ ln -s ~/dotfiles/inputrc ~/.inputrc`
 
 
