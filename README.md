@@ -1,6 +1,7 @@
 # Install
+
+## Vim Config
 ```
-## Vim
 $ git clone https://github.com/the2ndday/dotfiles.git dotfiles
 $ ln -s ~/dotfiles/vimrc ~/.vimrc
 $ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
@@ -11,7 +12,7 @@ in vim run `:PlugInstall`
 ## Tmux Config
 `$ ln -s ~/dotfiles/tmux.conf ~/.tmux.conf`
 
-## Terminal Input
+## Terminal Input Conig
 `$ ln -s ~/dotfiles/inputrc ~/.inputrc`
 
 
