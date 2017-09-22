@@ -1,6 +1,6 @@
-# Install
+## Install
 
-## Vim Config
+### Vim Config
 ```
 $ git clone https://github.com/the2ndday/dotfiles.git dotfiles
 $ ln -s ~/dotfiles/vimrc ~/.vimrc
@@ -9,15 +9,15 @@ $ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 ```
 in vim run `:PlugInstall`
 
-## Tmux Config
+### Tmux Config
 `$ ln -s ~/dotfiles/tmux.conf ~/.tmux.conf`
 
-## Terminal Input Config
+### Terminal Input Config
 `$ ln -s ~/dotfiles/inputrc ~/.inputrc`
 
 ---
 
-# Extra
+## Extra
 Too ignore untracked files in submodules
 ```
 git config --global core.excludesfile '~/.cvsignore'
