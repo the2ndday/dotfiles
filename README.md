@@ -2,7 +2,7 @@
 
 # Install
 ```
-Vim
+###Vim
 $ git clone https://github.com/the2ndday/dotfiles.git dotfiles
 $ ln -s ~/dotfiles/vimrc ~/.vimrc
 $ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
@@ -10,11 +10,11 @@ $ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 ```
 in vim run `:PlugInstall`
 
-Tmux Config
-$ ln -s ~/dotfiles/tmux.conf ~/.tmux.conf
+###Tmux Config
+`$ ln -s ~/dotfiles/tmux.conf ~/.tmux.conf`
 
-Terminal Input
-$ ln -s ~/dotfiles/inputrc ~/.inputrc
+###Terminal Input
+`$ ln -s ~/dotfiles/inputrc ~/.inputrc`
 
 
 # Extra
