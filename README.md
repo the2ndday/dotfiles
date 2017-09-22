@@ -15,8 +15,7 @@ in vim run `:PlugInstall`
 ## Terminal Input Config
 `$ ln -s ~/dotfiles/inputrc ~/.inputrc`
 
-
-
+---
 
 # Extra
 Too ignore untracked files in submodules
