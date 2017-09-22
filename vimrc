@@ -30,7 +30,7 @@ Plug 'junegunn/goyo.vim'
 
 "navigate/search/undo/yank
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
+Plug 'junegunn/fzf.vim'
 Plug 'vim-scripts/IndexedSearch'
 Plug 'mileszs/ack.vim'
 Plug 'goldfeld/vim-seek'
