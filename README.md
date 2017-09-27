@@ -19,12 +19,8 @@ in vim run `:PlugInstall`
 ### Terminal Input Config
 `$ ln -s ~/dotfiles/inputrc ~/.inputrc`
 
----
+### Gitignore
+`$ ln -s ~/dotfiles/gitignore ~/.gitignore`
+`git config --global core.excludesfile '~/.gitignore'`
 
-## Extra
-Too ignore untracked files in submodules
-```
-git config --global core.excludesfile '~/.cvsignore'
-echo tags >> ~/.cvsignore
-echo .netrwhist >> ~/.cvsignore
-```
+---
