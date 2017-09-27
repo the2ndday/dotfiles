@@ -222,6 +222,8 @@ nnoremap <silent> * *zz
 nnoremap <silent> # #zz
 nnoremap <silent> g* g*zz
 nnoremap <silent> g# g#zz
+" movement
+set number relativenumber
 
 "==========================
 " simple todo
