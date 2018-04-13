@@ -49,6 +49,9 @@ Plug 'takac/vim-commandcaps'
 Plug 'ajh17/Spacegray.vim'
 Plug 'altercation/vim-colors-solarized'
 
+"sync browser
+Plug 'jaxbot/browserlink.vim'
+
 call plug#end()
 
 "==========================

@@ -44,3 +44,9 @@ tags
 .dropbox
 .dropbox.attr
 .dropbox.cache
+
+# npm
+package-lock.json
+
+# jung
+nogit
