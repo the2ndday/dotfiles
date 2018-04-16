@@ -13,12 +13,12 @@ in vim run `:PlugInstall`
 
 ## .tmux.conf
 ```
-$ ln -s ~/dotfiles/tmux.conf ~/.tmux.conf`
+$ ln -s ~/dotfiles/tmux.conf ~/.tmux.conf
 ```
 
 ## .inputrc
 ```
-$ ln -s ~/dotfiles/inputrc ~/.inputrc`
+$ ln -s ~/dotfiles/inputrc ~/.inputrc
 ```
 
 ### Gitignore
