@@ -187,10 +187,10 @@ autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
 "==========================
 " spaces, tab, indentation, paste mode
 set backspace=indent,eol,start
-set tabstop=2
-set softtabstop=2
-set shiftwidth=2
 set expandtab
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
 set autoindent
 set smartindent
 set copyindent
