@@ -24,17 +24,12 @@ Plug 'tpope/vim-commentary'
 Plug 'AndrewRadev/splitjoin.vim'
 Plug 'Shougo/neocomplete.vim'
 
-" note
-Plug 'vitalk/vim-simple-todo'
-Plug 'junegunn/goyo.vim'
-
 "navigate/search/undo/yank
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'vim-scripts/IndexedSearch'
 Plug 'mileszs/ack.vim'
 Plug 'goldfeld/vim-seek'
-Plug 'sjl/gundo.vim'
 Plug 'vim-scripts/YankRing.vim'
 Plug 'Shougo/unite.vim'
 Plug 'Shougo/vimfiler.vim'
@@ -52,6 +47,9 @@ Plug 'altercation/vim-colors-solarized'
 "sync browser
 Plug 'jaxbot/browserlink.vim'
 
+" note
+Plug 'dkarter/bullets.vim'
+
 call plug#end()
 
 "==========================
@@ -67,8 +65,8 @@ colorscheme solarized
 " colorscheme spacegray
 " for solarized
 if (g:colors_name =~ "solarized")
-    "let g:solarized_termcolors=256
-    autocmd ColorScheme * hi Normal ctermbg=015
+    " let g:solarized_termcolors=256
+    autocmd ColorScheme * hi Normal ctermbg=15
     autocmd ColorScheme * hi LineNr ctermfg=253 ctermbg=none cterm=none
     autocmd ColorScheme * hi CursorLine ctermbg=255 cterm=none
     autocmd ColorScheme * hi CursorColumn ctermbg=255 cterm=none
@@ -252,10 +250,15 @@ map <leader>u :GundoToggle<CR><ESC><C-w>=
 imap <leader>u <ESC>:GundoToggle<CR><ESC><C-w>=
 
 "==========================
+" macvim
+set guifont=PragmataProMonoLiga-Regular:h16
+
+
+"==========================
 " Directory, file, and buffer navigation
-let g:fzf_layout = { 'down': '~40%' }
+let g:fzf_layout = { 'down': '~30%' }
 let g:fzf_colors =
-      \ { 'fg':      ['fg', 'Normal'],
+  \ { 'fg':      ['fg', 'Normal'],
   \ 'bg':      ['bg', 'Normal'],
   \ 'hl':      ['fg', 'Comment'],
   \ 'fg+':     ['fg', 'CursorLine', 'CursorColumn', 'Normal'],
