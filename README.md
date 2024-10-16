@@ -11,6 +11,12 @@ $ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \ https://raw.githubuserconte
 ```
 in vim run `:PlugInstall`
 
+
+## .alacritty.toml
+```
+$ ln -s ~/dotfiles/alacritty.toml ~/.alacritty.toml
+```
+
 ## .tmux.conf
 ```
 $ ln -s ~/dotfiles/tmux.conf ~/.tmux.conf
