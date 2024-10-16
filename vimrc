@@ -41,11 +41,12 @@ Plug 'tpope/vim-fugitive'
 Plug 'takac/vim-commandcaps'
 
 "color
-Plug 'ajh17/Spacegray.vim'
-Plug 'altercation/vim-colors-solarized'
+Plug 'rafi/awesome-vim-colorschemes'
+Plug 'ayu-theme/ayu-vim'
+
 
 "sync browser
-Plug 'jaxbot/browserlink.vim'
+" Plug 'jaxbot/browserlink.vim'
 
 " note
 Plug 'dkarter/bullets.vim'
@@ -60,23 +61,15 @@ set encoding=utf-8
 "==========================
 " color
 set t_Co=256
-set background=light
-colorscheme solarized
-" colorscheme spacegray
-" for solarized
-if (g:colors_name =~ "solarized")
-    " let g:solarized_termcolors=256
-    autocmd ColorScheme * hi Normal ctermbg=15
-    autocmd ColorScheme * hi LineNr ctermfg=253 ctermbg=none cterm=none
-    autocmd ColorScheme * hi CursorLine ctermbg=255 cterm=none
-    autocmd ColorScheme * hi CursorColumn ctermbg=255 cterm=none
-    autocmd ColorScheme * hi StatusLine ctermfg=254 ctermbg=237
-    autocmd ColorScheme * hi StatusLineNC ctermfg=254 ctermbg=248
-    autocmd ColorScheme * hi VertSplit ctermfg=254 ctermbg=254 cterm=none
-    autocmd ColorScheme * hi Search ctermbg=230 cterm=none
-    autocmd ColorScheme * hi Comment ctermfg=248 ctermbg=231 cterm=none
-endif
+set termguicolors     " enable true colors support
 
+" theme
+" let ayucolor="light"  " for light version of theme
+" let ayucolor="mirage" " for mirage version of theme
+let ayucolor="dark"   " for dark version of theme
+set background=dark
+colorscheme ayu
+autocmd ColorScheme * highlight! Normal ctermbg=NONE guibg=NONE "let vim use terminal bg
 
 "==========================
 " interface
