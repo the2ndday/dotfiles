@@ -14,6 +14,7 @@ in vim run `:PlugInstall`
 
 ## .alacritty.toml
 ```
+$ git clone https://github.com/alacritty/alacritty-theme ~/dofiles/alacritty_themes
 $ ln -s ~/dotfiles/alacritty.toml ~/.alacritty.toml
 ```
 
